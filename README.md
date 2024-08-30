@@ -23,7 +23,9 @@ Don't forget to check out them too.
 
 <h3>Starting</h3>
 
-Download the tool and unzip it. Run 'open_a_terminal.bat' file inside the folder, then run the following codes in sequence:
+First, connect the android device to your computer via USB and enable the 'USB debugging' feature of your android device. A [tutorial](https://developer.android.com/studio/debug/dev-options#Enable-debugging) for how to enable that.
+
+After that, download the tool and unzip it. Run 'open_a_terminal.bat' file inside the folder, then run the following codes in sequence:
 
 ```bash
 python -m pip install -r requirements.txt
