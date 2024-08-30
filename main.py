@@ -31,6 +31,7 @@ def get_device(str):
             return "Unknown (ADB is not installed)", "Unknown (ADB is not installed)"
 
 def adb_connect(ip):
+    sleep(1)
     subprocess.run(['.\\platform-tools\\adb.exe', 'connect', f'{ip}'], creationflags=subprocess.CREATE_NO_WINDOW)
     subprocess.run(['.\\platform-tools\\adb.exe', 'tcpip', f'5555'], creationflags=subprocess.CREATE_NO_WINDOW)
     devices = (subprocess.run(['.\\platform-tools\\adb.exe', 'devices'], stdout=subprocess.PIPE, text=True)).stdout.strip()
