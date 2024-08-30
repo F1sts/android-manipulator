@@ -4,7 +4,6 @@
 
 
 <p align="center">A simple python project to access an android device and 'manipulate' it.</p>
-<p align="center">(This tool uses [ADB](https://developer.android.com/tools/adb) and [Scrcpy](https://github.com/Genymobile/scrcpy) to communicate with the device.)</p>
 
 
 
@@ -14,6 +13,7 @@
 You can start using the tool in a few easy steps.
 
 <h3>Before we start</h3>
+
 This tool uses [ADB](https://developer.android.com/tools/adb) and [Scrcpy](https://github.com/Genymobile/scrcpy) to communicate with the device.
 Don't forget to check out them too.
 
