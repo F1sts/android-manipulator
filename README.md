@@ -12,16 +12,16 @@
 
 You can start using the tool in a few easy steps.
 
-<h3>Before we start</h3>
+<h3>⭐ Before we start</h3>
 
 This tool uses [ADB](https://developer.android.com/tools/adb) and [Scrcpy](https://github.com/Genymobile/scrcpy) to communicate with the device.
 Don't forget to check out them too.
 
-<h3>Prerequisites</h3>
+<h3>📁 Prerequisites</h3>
 
 - [Python 3](https://www.python.org/downloads/)
 
-<h3>Starting</h3>
+<h3>🪶 Starting</h3>
 
 First, connect the android device to your computer via USB and enable the 'USB debugging' feature of your android device. A [tutorial](https://developer.android.com/studio/debug/dev-options#Enable-debugging) for how to enable that.
 
@@ -33,6 +33,6 @@ python -m pip install -r requirements.txt
 python main.py
 ```
 
-<h3>Having trouble?</h3>
+<h3>⚠️ Having trouble?</h3>
 
 You can report it on github. Enjoy the tool!
