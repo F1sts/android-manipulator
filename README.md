@@ -17,11 +17,11 @@ You can start using the tool in a few easy steps.
 This tool uses [ADB](https://developer.android.com/tools/adb) and [Scrcpy](https://github.com/Genymobile/scrcpy) to communicate with the device.
 Don't forget to check out them too.
 
-<h4>Prerequisites</h4>
+<h3>Prerequisites</h3>
 
 - [Python 3](https://www.python.org/downloads/)
 
-<h4>Starting</h4>
+<h3>Starting</h3>
 
 Download the tool and unzip it. Run 'open_a_terminal.bat' file inside the folder, then run the following codes in sequence:
 
